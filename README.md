@@ -1,8 +1,8 @@
-# 📧 InboxPilot
+# 📧 AI-Gmail auto responder
 
 **AI-powered Gmail auto-responder with a human-in-the-loop approval workflow.**
 
-InboxPilot connects to your Gmail inbox, classifies unread emails using a multi-agent [CrewAI](https://www.crewai.com/) pipeline running on [Groq](https://groq.com/), drafts a professional reply when one is needed, and lets you review, edit, and approve every response before it's sent. Nothing goes out without your sign-off.
+AI-Gmail auto responder connects to your Gmail inbox, classifies unread emails using a multi-agent [CrewAI](https://www.crewai.com/) pipeline running on [Groq](https://groq.com/), drafts a professional reply when one is needed, and lets you review, edit, and approve every response before it's sent. Nothing goes out without your sign-off.
 
 ---
 
@@ -80,8 +80,8 @@ The workflow is orchestrated with a [CrewAI `Flow`](https://docs.crewai.com/conc
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/<your-username>/inboxpilot.git
-cd inboxpilot
+git clone https://github.com/<your-username>/AI-Gmail auto responder.git
+cd AI-Gmail auto responder
 ```
 
 **2. Create and activate a virtual environment**
@@ -143,7 +143,7 @@ Processes unread emails one at a time in the terminal, printing the classificati
 ## 📁 Project structure
 
 ```
-inboxpilot/
+AI-Gmail auto responder/
 ├── frontend/
 │   └── app.py           # Streamlit UI
 ├── crew.py               # Agents, tasks, and crews (classification + response)
